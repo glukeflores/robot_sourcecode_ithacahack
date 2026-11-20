@@ -1,0 +1,34 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*credentials*
+*secret*
+
+# --- Python / generated ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# --- Large downloaded model weights (YOLO-World downloads them on first run) ---
+*.pt
+weights/
+
+# --- Robot runtime state (rewritten constantly while running) ---
+arm_cmds/
+knife_state.json
+scene_state.json
+coverage.npz
+calib_frames/
+*.tmp
+
+# --- Bot lock files and local machine files ---
+*.lock
+.DS_Store
+.claude/
+
+frames/

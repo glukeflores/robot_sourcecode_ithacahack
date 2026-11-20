@@ -1,0 +1,67 @@
+{
+ "cameras": {
+  "0x1110000328f0073": {
+   "label": "top view",
+   "frame": "scene_ref_top.jpg",
+   "boxes": {
+    "bagel": [
+     275,
+     200,
+     462,
+     312
+    ],
+    "tub": [
+     2,
+     262,
+     78,
+     332
+    ]
+   },
+   "anchors": {
+    "bagel": [
+     368,
+     212
+    ],
+    "tub": [
+     40,
+     270
+    ]
+   },
+   "snap_knife": true,
+   "role": "top",
+   "snap_width": 50
+  },
+  "0x1130000328f0073": {
+   "label": "side view (height)",
+   "frame": "scene_ref_side.jpg",
+   "boxes": {
+    "bagel": [
+     445,
+     305,
+     632,
+     352
+    ],
+    "tub": [
+     202,
+     294,
+     282,
+     338
+    ]
+   },
+   "top_line": true,
+   "anchors": {
+    "bagel": [
+     538,
+     312
+    ],
+    "tub": [
+     242,
+     298
+    ]
+   },
+   "role": "side",
+   "snap_knife": true,
+   "snap_width": 20
+  }
+ }
+}
