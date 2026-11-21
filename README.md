@@ -2,8 +2,8 @@
 
 We built a robot arm that spreads cream cheese on a bagel. Two USB cameras watch the table, find
 the bagel and the tub of cream cheese, and guide a knife held by the arm. Made at a hackathon in
-Ithaca by [@glukeflores](https://github.com/glukeflores) and
-[@realbenjaminyou](https://github.com/realbenjaminyou).
+Ithaca by [@realbenjaminyou](https://github.com/realbenjaminyou) and
+[@glukeflores](https://github.com/glukeflores).
 
 ## Goal
 
