@@ -90,5 +90,7 @@ The serial port, camera IDs and calibration files here are for our setup, so cha
 yours. Each script lists its options at the top of the file. The YOLO-World weights download the
 first time you run it.
 
-Safety: the arm is holding a real knife. Keep your hands away while it's powered on and keep the
+## Safety
+
+The arm is holding a real knife. Keep your hands away while it's powered on and keep the
 STOP button (or the space bar) close.
